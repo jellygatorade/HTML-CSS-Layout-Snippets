@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="../../style/tailwind-compiled.css" />
+  </head>
+  <body>
+    <!--
+        Following
+        http://jsfiddle.net/8jqbjese/12/ 
+        from
+        How to center a flex-container but left-align flex items
+        https://stackoverflow.com/questions/32802202/how-to-center-a-flex-container-but-left-align-flex-items
+
+        In this example ul with margin-auto is used to center, li within have fixed width that matches a factor of ul total width
+        - ul is set to multiples of 300px
+        - each li is set to 300px
+    -->
+    <ul
+      class="my-0 mx-auto p-0 w-[300px] sm:w-[600px] lg:w-[900px] xl:w-[1200px] 2xl:w-[1500px]"
+    >
+      <li
+        class="inline-block list-none box-border border border-black w-[300px] px-[10px] py-[20px] align-top cursor-pointer"
+        >1</li
+      ><li
+        class="inline-block list-none box-border border border-black w-[300px] px-[10px] py-[20px] align-top cursor-pointer"
+        >2</li
+      ><li
+        class="inline-block list-none box-border border border-black w-[300px] px-[10px] py-[20px] align-top cursor-pointer"
+        >3</li
+      ><li
+        class="inline-block list-none box-border border border-black w-[300px] px-[10px] py-[20px] align-top cursor-pointer"
+        >4</li
+      ><li
+        class="inline-block list-none box-border border border-black w-[300px] px-[10px] py-[20px] align-top cursor-pointer"
+        >5</li
+      ><li
+        class="inline-block list-none box-border border border-black w-[300px] px-[10px] py-[20px] align-top cursor-pointer"
+        >6</li
+      ><li
+        class="inline-block list-none box-border border border-black w-[300px] px-[10px] py-[20px] align-top cursor-pointer"
+        >7</li
+      ><li
+        class="inline-block list-none box-border border border-black w-[300px] px-[10px] py-[20px] align-top cursor-pointer"
+        >8</li
+      ><li
+        class="inline-block list-none box-border border border-black w-[300px] px-[10px] py-[20px] align-top cursor-pointer"
+        >9</li
+      >
+    </ul>
+  </body>
+</html>
