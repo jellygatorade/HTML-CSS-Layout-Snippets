@@ -472,6 +472,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
 .my-0 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -494,8 +506,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .w-\[300px\] {
   width: 300px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .cursor-pointer {
@@ -506,8 +526,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   list-style-type: none;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .border {
   border-width: 1px;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-0 {
